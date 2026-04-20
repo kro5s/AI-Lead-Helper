@@ -1,7 +1,6 @@
 .section {
   display: grid;
   gap: var(--gap-20);
-  width: min(100%, var(--app-content-max-width));
 }
 
 .title {

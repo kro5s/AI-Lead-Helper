@@ -1,5 +1,4 @@
 .surface {
-  width: min(100%, var(--app-content-max-width));
   height: calc(100vh - 120px);
   min-height: 560px;
   padding: var(--gap-24) var(--gap-16) var(--gap-24) var(--gap-24);

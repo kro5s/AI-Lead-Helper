@@ -2,7 +2,6 @@
 
 :root {
   --app-sidebar-width: 84px;
-  --app-content-max-width: 1276px;
   --app-color-page-bg: var(--color-light-base-bg-secondary);
   --app-color-surface: var(--color-light-base-bg-primary);
   --app-color-border: var(--color-light-neutral-300);

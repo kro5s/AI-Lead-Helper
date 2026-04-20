@@ -8,7 +8,6 @@
 
 .header {
   display: flex;
-  width: min(100%, var(--app-content-max-width));
   align-items: center;
   justify-content: space-between;
   gap: var(--gap-24);
@@ -36,7 +35,6 @@
 
 .chartsGrid {
   display: grid;
-  width: min(100%, var(--app-content-max-width));
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: var(--gap-40);
 }
