@@ -1,0 +1,48 @@
+.page {
+  display: grid;
+  gap: var(--gap-64);
+  align-content: start;
+  min-height: 100vh;
+  padding: var(--gap-32) var(--gap-40) var(--gap-96);
+}
+
+.header {
+  display: flex;
+  width: min(100%, var(--app-content-max-width));
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-24);
+}
+
+.externalLinks {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-16);
+}
+
+.linkButton {
+  color: var(--app-color-text-primary);
+}
+
+.serviceIcon {
+  inline-size: 16px;
+  block-size: 16px;
+}
+
+.topSection {
+  display: grid;
+  gap: var(--gap-24);
+}
+
+.chartsGrid {
+  display: grid;
+  width: min(100%, var(--app-content-max-width));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--gap-40);
+}
+
+@media (max-width: 1100px) {
+  .chartsGrid {
+    grid-template-columns: 1fr;
+  }
+}

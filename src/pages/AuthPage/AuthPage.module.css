@@ -1,0 +1,17 @@
+.page {
+  display: grid;
+  min-height: 100vh;
+  place-items: start center;
+  background: var(--app-color-page-bg);
+}
+
+.content {
+  display: grid;
+  justify-items: center;
+  gap: 204px;
+  padding-top: 136px;
+}
+
+.loginButton {
+  min-width: 180px;
+}
