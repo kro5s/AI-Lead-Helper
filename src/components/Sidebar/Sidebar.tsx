@@ -14,7 +14,7 @@ import Logo from '../Logo/Logo';
 const SIDEBAR_ITEMS: SidebarItem[] = [
   { id: 'tasks', label: 'Значимые события', icon: ListMIcon, route: ROUTES.SIGNIFICANT_EVENTS },
   { id: 'analytics', label: 'Аналитика', icon: StatsChartMIcon, route: ROUTES.ANALYTICS },
-  { id: 'chat', label: 'Чат', icon: NavigationChatMIcon, route: ROUTES.AUTH },
+  { id: 'chat', label: 'Чат', icon: NavigationChatMIcon, route: ROUTES.CHAT },
 ];
 
 export function Sidebar() {

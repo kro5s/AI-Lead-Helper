@@ -4,6 +4,7 @@ import { AuthLayout } from './components/AuthLayout/AuthLayout';
 import { ROUTES } from './constants/routes';
 import { AuthPage } from './pages/AuthPage/AuthPage';
 import { AnalyticsPage } from './pages/AnalyticsPage/AnalyticsPage';
+import { ChatPage } from './pages/ChatPage/ChatPage';
 import { SignificantEventsPage } from './pages/SignificantEventsPage/SignificantEventsPage';
 
 const QUERY_CLIENT = new QueryClient();
@@ -17,6 +18,7 @@ function App() {
           <Route element={<AuthLayout />}>
             <Route path={ROUTES.SIGNIFICANT_EVENTS} element={<SignificantEventsPage />} />
             <Route path={ROUTES.ANALYTICS} element={<AnalyticsPage />} />
+            <Route path={ROUTES.CHAT} element={<ChatPage />} />
           </Route>
         </Routes>
       </BrowserRouter>
